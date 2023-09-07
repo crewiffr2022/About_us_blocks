@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="partCentral">
+        <section class="cadre">
+            <article class="parti1">
+                    <img class="nature" src="IMAGE/nature.jpg" alt="">
+            </article>
+            <article class="parti2">
+                <span class="text1">About us</span>
+                <span class="text2">About out company</span>
+                <span class="text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eveniet,quisquam id, maiores voluptate
+                     ex illum possimus voluptatibus deserunt amet recusandae, assumenda sunt ullam sequi consectetur veritatis.</span>
+            </article>
+        </section>
+    </div>
+</body>
+<style>
+    body{
+    margin: 0%;
+}
+.partCentral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+    background-color: none;
+}
+.cadre{
+    border: 0px solid;
+    background-color: none;
+    display: flex;
+    flex-direction:row-reverse;
+    width: 80%;
+    margin: 60px;
+    height: calc(100vh - 100px);
+}
+.parti1{
+    
+    width: 50%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nature{
+    width:100%;
+    height: 100%;
+}
+.parti2{
+    width: 50%;
+    background-color:#fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.text1{
+
+font-size: 22px;
+line-height: 18px;
+font-weight: 400;
+color: rgb(119, 110, 110);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.text2{
+ font-size: 40px;
+ font-weight: 800;
+ line-height: 20px;
+ margin-top: 30px;
+
+}
+.text3{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(128, 128, 128, 0.808) ;
+    margin-top: 30px;
+}
+
+</style>
+</html>
